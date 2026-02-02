@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Porrtfolio</title>
+<link rel="stylesheet" href="style.css">
+
+<style>
+    .container {
+        max-width: 960px;
+        margin : 0 auto;
+        padding: 40px;
+    }
+
+    .project {
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        padding: 20px;
+        border-radius: 20px;
+        
+    }
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <img src="./images/photo.jpg" alt="Profile Photo" style="aspect-ratio: 1 / 1; object-fit: cover; width: 200px;">
+            <h1>Shranav Sakha</h1>
+            <p style="font-family: 'Courier New', Courier, monospace; color: brown;">
+                Web Developer
+            </p>
+            <p>Iowa State Computer Science student making webpages!</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="./images/project1.png" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>The first project is a Google Maps File parsing and Weather Retrieval software.
+                    This software is build on python and has the ability to parse two types of files .kml File
+                    and .csv file. Both the frontend and backend is done in python. It uses a weather API,
+                    to retrieve weather data and uses pyQT library for the frontend.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>You can reach me at shranavsakha78@gmail.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Shranav Sakha</p>
+    </footer>
+</body>
+</html>
